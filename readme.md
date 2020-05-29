@@ -38,10 +38,17 @@ usage: scan_main.py [-h] {udp,tcp,udp1,tcp1} target start end
 
 ##### positional arguments:
   
-* {udp,tcp,udp1,tcp1}  type of ports to scan
-* target               target host
-* start                start number of ports range
-* end                  end number of ports range
+* {udp,tcp,udp1,tcp1}  
+type of ports to scan
+типы сканирования более подробно описаны в параграфе Функции
+* target               
+target host
+* start                
+start number of ports range
+начало диапазона портов
+* end                  
+end number of ports range
+конец диапазона портов
 
 ##### optional arguments:
   
